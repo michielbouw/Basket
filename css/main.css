@@ -6,7 +6,7 @@ header {
   height: 65px;
   width: 100%;
 
-  background-color: #A7D2CB;
+  background-color: #48CFDD;
 
   z-index: 10;
 }
@@ -44,7 +44,7 @@ header .header-logo {
   width: auto;
   height: 23px;
 
-  color: #F9F8EB;
+  color: #FFF2F2;
 }
 
 header .menu-icon {
@@ -55,7 +55,7 @@ header .menu-icon {
   font-size: 32px;
   line-height: 65px;
 
-  color: #F9F8EB;
+  color: #FFF2F2;
 }
 header .menu-icon:active,
 header .menu-icon:focus,
@@ -81,6 +81,11 @@ header .menu-links .divider {
   margin: 0 6px;
 }
 
+header .menu-links img.user-logo {
+  height: 14px;
+  width: auto;
+}
+
 .menu-overlay {
   position: absolute;
   top: 65px;
@@ -90,9 +95,9 @@ header .menu-links .divider {
   width: 100%;
   height: calc(100% - 65px); /* Full height with header */
 
-  background-color: #A7D2CB;
-  color: #ffffff;
-  border-top: 1px solid #ffffff;
+  background-color: #48CFDD;
+  color: #000000;
+  border-top: 1px solid #000000;
 }
 
 .menu-overlay .container.menu-content {
@@ -132,18 +137,18 @@ header .menu-links .divider {
   background-color: rgba(255,255,255,0.5);
 }
 
+.menu-overlay img.user-logo {
+  height: 14px;
+  width: auto;
+}
+
 .menu-overlay .menu-bottom {
   margin-top: auto;
 
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #000000;
 }
 
 .menu-overlay a {
-  color: #ffffff;
-}
-.menu-overlay a:active,
-.menu-overlay a:focus,
-.menu-overlay a:hover {
   color: #000000;
 }
 
@@ -171,9 +176,9 @@ footer.footer-mobile {
   text-align: left;
 
   background-color: #ffffff;
-  -webkit-box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.2);
-  -moz-box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.2);
-  box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 4px 13px -6px rgba(0,0,0,0.3);
   border-top: none;
 }
 

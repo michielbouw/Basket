@@ -14,7 +14,7 @@ function openMenu() {
           '<li tabindex="0"><a>My Baskets</a></li>' +
         '</ul>' +
         '<ul class="menu-bottom">' +
-          '<li tabindex="0"><a aria-label="View your profile">&#128100;&nbsp;&nbsp;<b>Sam</b></a></li>' +
+          '<li tabindex="0"><a aria-label="View your profile"><img class="user-logo" src="./assets/user.png" />&nbsp;&nbsp;<b>Sam</b></a></li>' +
           '<li tabindex="0"><a aria-label="Setup your Basket and share with friends">Settings</a></li>' +
           '<li tabindex="0"><a aria-label="More information about Basket">Help</a></li>' +
           '<li tabindex="0"><a>Sign out</a></li>' +
