@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basket | Sam's online Basket</title>
+    <meta
+      name="description"
+      content="Online grocery shopping list management"
+    />
+    <meta name="author" content="Michiel Bouw" />
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!--[if IE
+      ]><link
+        rel="shortcut icon"
+        href="./assets/favicon.ico"
+        type="image/x-icon"
+    /><![endif]-->
+    <link rel="icon" href="./assets/favicon.png" type="image/png" />
+
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/basket.css" />
+    <link rel="stylesheet" href="./css/list.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header-content">
+            <a
+              class="home-icon"
+              aria-label="Basket | Click to navigate to homepage"
+              tabindex="-1"
+            >
+              <img class="header-logo" src="./assets/logo.png" />
+              <h1>Basket</h1>
+            </a>
+            <span class="show-mobile">
+              <a
+                class="menu-icon"
+                id="menu-open-icon"
+                aria-label="Open menu"
+                tabindex="0"
+                onclick="openMenu()"
+                >&#9776;</a
+              >
+              <a
+                class="menu-icon menu-icon__close"
+                id="menu-close-icon"
+                aria-label="Close menu"
+                tabindex="0"
+                onclick="closeMenu()"
+                >X</a
+              >
+            </span>
+            <span class="menu-links hide-mobile">
+              <a aria-label="View your profile">&#128100; <b>Sam</b></a>
+              <span class="divider">&#124;</span>
+              <a aria-label="Setup your Basket and share with friends"
+                >Settings</a
+              >
+              <span class="divider">&#124;</span>
+              <a aria-label="More information about Basket">Help</a>
+              <span class="divider">&#124;</span>
+              <a>Sign out</a>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <div class="content-left">
+        <div class="content">
+          <div class="container">
+            <h2>My Baskets</h2>
+            <p>
+              <a>
+              + create your first basket
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <footer class="footer-mobile show-mobile">
+          <div class="container">
+            <div class="footer-content">
+              <h3><img src="./assets/logo.png" /> Basket</h3>
+              <small>Online grocery shopping list management</small>
+
+              <p><i>How to get going?</i></p>
+              <p><b>1. Create</b> your own Basket</p>
+              <p><b>2. Add</b> items to your Basket</p>
+              <p><b>3. Share</b> with your friends</p>
+              <p><b>4. Shop, Check & Done</b></p>
+            </div>
+          </div>
+        </footer>
+
+        <footer class="hide-mobile">
+          <div class="container">
+            <img src="./assets/logo.png" />
+            Basket | 2019 &copy; Michiel Bouw
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div id="overlay-wrapper"></div>
+
+    <!-- <div id="overlay-wrapper">
+      <div class="overlay">
+        <div class="container container-box">
+          <h3>Create new Basket</h3>
+          <p>name: ...</p>
+          <p>Create now</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div id="overlay-wrapper">
+      <div class="overlay">
+        <div class="container container-box">
+          <h3>Share Basket</h3>
+          <p>Alice</p>
+          <p>Bob</p>
+          <p>Share now</p>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
