@@ -1,4 +1,4 @@
-# Basket
+# Basket v0.1
 
 Online grocery shopping list management
 
