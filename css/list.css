@@ -1,0 +1,65 @@
+.list ul {
+  margin: 8px 0;
+}
+
+.list ul li {
+  padding: 8px;
+
+  cursor: pointer;
+
+  border-top: 1px solid rgba(0,0,0,0.4);
+}
+.list ul li:last-of-type {
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+.list ul li#create-new-basket {
+  border-top: 1px dashed rgba(0,0,0,0.4);
+  border-bottom: 1px dashed rgba(0,0,0,0.4);
+
+  margin-bottom: 6px;
+}
+
+.list ul li:active,
+.list  ul li:focus,
+.list ul li:hover {
+  color: #DC2543;
+}
+
+.list ul li .right {
+  float: right;
+  margin-left: 8px;
+}
+
+.list ul li button {
+  display: none;
+  cursor: pointer;
+  float: right;
+  margin-left: 8px;
+
+  height: 24px;
+  line-height: 24px;
+
+  z-index: 10;
+}
+.list ul li:active > button,
+.list ul li:focus > button,
+.list ul li:hover > button {
+  display: inline;
+}
+
+/* Responsive additions */
+
+/* Tablet */
+@media (min-width: 600px) {
+
+}
+
+/* Small Desktop */
+@media (min-width:960px) {
+
+}
+
+/* Desktop */
+@media (min-width:1280px) {
+
+}

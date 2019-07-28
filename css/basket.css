@@ -1,0 +1,87 @@
+.checklist {
+  display: none;
+
+  width: 100%;
+}
+
+.checklist__actions {
+  float: right;
+  margin-bottom: 16px;
+}
+
+.checklist__actions button {
+  height: 24px;
+  line-height: 24px;
+}
+
+.checklist__item {
+  width: 100%;
+}
+
+.checklist__item-delete {
+  cursor: pointer;
+}
+
+.checklist__add {
+  cursor: pointer;
+  margin: 4px 0;
+  padding-left: 36px;
+}
+
+.checker {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 1px;
+  margin-right: 8px;
+  margin-bottom: -4px;
+
+  border: 2px solid #48CFDD;
+}
+
+.checker .checkbox {
+  display: none;
+}
+
+.checker .checked {
+  width: 100%;
+  height: 100%;
+}
+.checkbox:checked + .checked {
+  background-color: #48CFDD;
+}
+
+.checker[checked="checked"] + input[type="text"] {
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: line-through;
+}
+
+.checker + input[type="text"] {
+  margin: 4px 0;
+
+  width: calc(100% - 48px);
+
+  border: none;
+  background: transparent;
+}
+.checker + input[type="text"]:focus {
+  border: 1px solid #004E6D;
+  background: #FFFFFF;
+}
+
+/* Responsive additions */
+
+/* Tablet */
+@media (min-width: 600px) {
+
+}
+
+/* Small Desktop */
+@media (min-width:960px) {
+
+}
+
+/* Desktop */
+@media (min-width:1280px) {
+
+}
